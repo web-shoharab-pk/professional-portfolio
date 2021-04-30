@@ -1,0 +1,12 @@
+
+.navbar-option{
+    font-size: 20px;
+    font-weight: 700;
+    color: #cfcdcd !important; 
+    transition: .5s; 
+}
+
+.navbar-option:hover{
+
+    color: red !important; 
+}

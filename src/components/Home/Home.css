@@ -1,0 +1,44 @@
+ 
+#navbar{
+    width: 100%;
+    height: 100%;
+    background-color: #444444f6;
+}
+.videoTag{
+ 
+    opacity: .8; 
+    background-color: #5E6165;
+}
+.mainImg{
+    position: absolute;
+    top: 250px;
+    left: 700px;    
+}
+.image{
+    
+    border-radius: 50%;
+}
+.resumeBtn{
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #ec6c39, #f53e2e);
+    transition: 1s;
+}
+.resumeBtn:hover{
+    background: linear-gradient(45deg, #f53a29, #ee6834); 
+    transform: scaleX(1.2);
+}
+#about{
+    width: 100%;
+    height: 100%; 
+}
+#skills{
+    width: 100%;
+    height: 100%;
+    background-color: #373B40;
+    color: white;
+}
