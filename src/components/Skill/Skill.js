@@ -1,34 +1,12 @@
 import React from 'react';
+import skillImg from '../images/303-removebg-removebg-preview.png';
 import './Skill.css';
-import skillImg from '../images/303-removebg-removebg-preview.png'
 
 const Skill = () => {
     return (
         <main className="container mt-5">
             <h1 style={{ fontSize: '60px', fontWeight: '800', padding: '20px 10px' }}>MY SKILLS</h1>
-            <div className="toolsList">
-                <h1>Tools</h1>
-                <ul>
-                    <li>
-                        <h4>Git</h4>
-                    </li>
-                    <li>
-                        <h4>Github</h4>
-                    </li>
-                    <li>
-                        <h4>Netlify</h4>
-                    </li>
-                    <li>
-                        <h4>Firebase</h4>
-                    </li>
-                    <li>
-                        <h4>Heroku</h4>
-                    </li>
-                    <li>
-                        <h4>Visual Studio Code</h4>
-                    </li>
-                </ul>
-            </div>
+             
 
             <div className="row">
                 <div className="col-md-6">
@@ -62,7 +40,7 @@ const Skill = () => {
                             <li>
 
                             </li>
-                            <h3>ExpressJS</h3><span className="skillBar"><span className="expressjs"></span> </span>
+                            <h3>ExpressJS</h3><span className="skillBar"><span className="expressjs"></span>100 </span>
                             <li>
 
                             </li>
@@ -70,12 +48,10 @@ const Skill = () => {
 
                         </ul>
 
-
-
                     </div>
                 </div>
                 <div className="col-md-6 py-5 px-3">
-                    <img className="img-fluid" src={skillImg} alt="" />
+                    <img className="img-fluid skillImg" src={skillImg} alt="" />
                 </div>
             </div>
         </main>

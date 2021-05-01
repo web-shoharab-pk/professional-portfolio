@@ -1,12 +1,26 @@
-
-.navbar-option{
-    font-size: 20px;
-    font-weight: 700;
-    color: #cfcdcd !important; 
-    transition: .5s; 
+ .navbar-option {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0a173a !important;
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  outline: none; 
+  transition: .8s;
 }
 
-.navbar-option:hover{
-
-    color: red !important; 
+.navbar-option:hover {
+  color: white !important;
+  text-decoration: wavy;
+  border: 1px solid #0a173a;
+}
+.navbar-home{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0a173a !important;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    outline: none; 
+    transition: .8s;
 }

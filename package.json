@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@formcarry/react": "^1.0.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
@@ -18,7 +19,9 @@
     "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
     "react-tsparticles": "^1.26.4",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

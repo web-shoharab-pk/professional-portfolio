@@ -2,6 +2,11 @@
     font-family: sans-serif;
     
 }
+.skillImg{ 
+    border-bottom: 10px solid #FDF2E2; 
+    border-radius: 10px;
+ 
+}
 .skills{
     width: 90%;
     margin: 60px auto;
@@ -12,34 +17,36 @@
 .skillList{
     list-style: none;
 }
-.toolsList ul{
-   
-    display: flex;
-    list-style-type: circle;
+ 
+.toolsList{
+    width: 100vh;
 }
 .toolsList li{
-    margin: 10px 20px;
+    margin: 20px;
+    font-size: 16px;
+
 }
 .skillBar{
-    background: #0250f7;
+    background: white;
     display: block;
-    height: 5px;
+    height: 15px;
     border: 1px rgba(0, 0, 0, .3);
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0 0 10px #2187e7b3;
 }
 .skillBar span{
-    height: 4px;
+    height: 15px;
     float: left;
-    background-color: #308ee6;
+    background-color: #0250f7;
+    border-radius: 15px;
 }
 .html{
-     width: 90%;
+     width: 85%;
      animation: html 2s;
 }
 .css{
-    width: 80%;
+    width: 75%;
     animation: css 2s;
 }
 .bootstrap{
@@ -47,23 +54,23 @@
     animation: bootstrap 2s;
 }
 .javascript{
-    width: 65%;
+    width: 70%;
     animation: javascript 2s;
 }
 .reactjs{
-    width: 60%;
+    width: 65%;
     animation: reactjs 2s;
 }
 .nodejs{
-    width: 50%;
+    width: 60%;
     animation: nodejs 2s;
 }
 .expressjs{
-    width: 40%;
+    width: 60%;
     animation: expressjs 2s;
 }
 .mongo{
-    width: 40%;
+    width: 65%;
     animation: mongo 2s;
 }
 
@@ -73,7 +80,7 @@
         width: 0%;
     }
     100%{
-        width: 90%;
+        width: 85%;
     }
 }
 @keyframes css{
@@ -81,7 +88,7 @@
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 75%;
     }
 }
 @keyframes bootstrap{
@@ -97,7 +104,7 @@
         width: 0%;
     }
     100%{
-        width: 65%;
+        width: 70%;
     }
 }
 @keyframes reactjs{
@@ -105,7 +112,7 @@
         width: 0%;
     }
     100%{
-        width: 60%;
+        width: 65%;
     }
 }
 @keyframes nodejs{
@@ -113,7 +120,7 @@
         width: 0%;
     }
     100%{
-        width: 50%;
+        width: 60%;
     }
 }
 @keyframes expressjs{
@@ -121,7 +128,7 @@
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 60%;
     }
 }
 @keyframes mongo{
@@ -129,6 +136,6 @@
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 65%;
     }
 }

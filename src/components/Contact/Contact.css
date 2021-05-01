@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Yellowtail&display=swap");
+.contactBtn {
+  border: 3px solid white;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 50%;
+  background-color: #373b40;
+  color: white;
+  border-radius: 50px;
+  transition: 1s;
+}
+.contactBtn:hover {
+  border: 3px solid #68e0cf;
+  color: #68e0cf;
+}
+.details {
+  border: 2px solid #68e0cf;
+  border-radius: 40px;
+  padding: 30px;
+}
+.details p {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  line-height: 15px;
+}
+.details p span {
+  color: #68e0cf;
+}
+.detailsName {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+ 
+.icon { 
+  font-size: 50px; 
+  border-radius: 5px;
+  background-color: #373B40;
+  color: #0aac96;
+  transition: .5s;
+}
+.icon:hover{
+    background: #373B40;
+    color: white;
+}
