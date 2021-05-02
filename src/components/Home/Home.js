@@ -13,8 +13,7 @@ import fb from '../images/fb.png';
 import tw from '../images/tw.png';
 import ig from '../images/ig.png';
 import bubbles from '../images/bubble.png';
-import Aos from "aos";
-import "aos/dist/aos.css"; 
+import Aos from "aos"; 
 import { useEffect } from 'react';
 
 const Home = () => {

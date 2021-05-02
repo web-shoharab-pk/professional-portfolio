@@ -12,11 +12,13 @@ overflow-x: hidden;
      color: #373B40;
 }
 .personalInfo{
+    width: 100%;
     border: 2px solid grey;
     padding: 20px 30px;
     border-radius: 20px;
 }
 .myskills{
+    width: 100%;
     border: 2px solid grey;
     padding: 20px 30px;
     border-radius: 20px;

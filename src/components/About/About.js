@@ -1,7 +1,7 @@
 import React from 'react';
 import image2 from '../images/mypic2.png';
 import './About.css';
-import Aos from "aos";
+import Aos from "aos"; 
 import "aos/dist/aos.css"; 
 import { useEffect } from 'react';
 
