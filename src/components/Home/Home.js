@@ -19,16 +19,17 @@ const Home = () => {
         <main>
             <section className="hero" style={{ margin: '0', padding: '0' }}>
 
-                <div id="navbar">
+                <div className="d-flex justify-content-between" >
                     <Navbar></Navbar>
                 </div>
 
                 <div className="homePageContent">
                     <div className="text-center text-light" >
                         <img className="img-fluid hompageImg" src={mainImg} alt="" />
-                        <h1 className="webText">
-                            Web Developer
-                        </h1>
+                        <div className="webText">
+                            Hi There!  I'M SHOHARAB <br />
+                            Web Developer                          
+                        </div>
                         <a href="https://drive.google.com/uc?id=13l1V2D3s3-qTQ9ninTZ_0J0Lr0hPNzX9&export=download">
                             <button className="resumeBtn">DOWNLOAD RESUME <FontAwesomeIcon icon={faDownload} /></button>
                         </a>

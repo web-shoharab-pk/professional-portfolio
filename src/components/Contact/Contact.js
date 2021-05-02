@@ -10,13 +10,13 @@ const Contact = () => {
         <main className="container">
             <h1 style={{ fontSize: '60px', fontWeight: '800', padding: '20px 10px', color: '#68E0CF' }}>CONTACT</h1>
             <div className="row">
-                <div style={{color: '#68E0CF', fontSize: '20px'}} className="col-md-6 p-5">
+                <div style={{color: '#68E0CF', fontSize: '20px'}} className="col-md-6 p-3">
 
                     <ContactForm></ContactForm>
 
                 </div>
 
-                <div className="col-md-6 p-5">
+                <div className="col-md-6 p-3">
                     <div className="details">
                         <h1 className="detailsName">Md Shoharab Pk</h1>
                         <h3 style={{ fontSize: '30px', fontWeight: '700', color: '#68E0CF' }}>web developer</h3>

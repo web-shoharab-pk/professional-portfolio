@@ -5,8 +5,9 @@
 }
 .cart{
     position: relative;
-    width: 250px;
-    height: 300px;
+    padding: 50px 30px;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
     display: flex;
     justify-content: center;
@@ -19,18 +20,7 @@
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
 }
-/* .cart::before{
-    content: ' ';
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, .03);
-    pointer-events: none;
-    z-index: 1;
-} */
-
+ 
 .percent{
     position: relative;
     width: 150px;
@@ -138,141 +128,18 @@ svg circle:nth-child(2){
     stroke: #ff5100;
 }
 
-
-.skillImg{ 
-    border-bottom: 10px solid #FDF2E2; 
-    border-radius: 10px;
- 
-}
-.skills{
-    width: 90%;
-    margin: 60px auto;
-}
-.skills li{
-    margin: 20px 0;  
-}
-.skillList{
-    list-style: none;
-}
- 
-.toolsList{
-    width: 100vh;
-}
-.toolsList li{
-    margin: 20px;
-    font-size: 16px;
-
-}
-.skillBar{
-    background: white;
-    display: block;
-    height: 15px;
-    border: 1px rgba(0, 0, 0, .3);
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: 0 0 10px #2187e7b3;
-}
-.skillBar span{
-    height: 15px;
-    float: left;
-    background-color: #0250f7;
-    border-radius: 15px;
-}
-.html{
-     width: 85%;
-     animation: html 2s;
-}
-.css{
-    width: 75%;
-    animation: css 2s;
-}
-.bootstrap{
-    width: 75%;
-    animation: bootstrap 2s;
-}
-.javascript{
-    width: 70%;
-    animation: javascript 2s;
-}
-.reactjs{
-    width: 65%;
-    animation: reactjs 2s;
-}
-.nodejs{
-    width: 60%;
-    animation: nodejs 2s;
-}
-.expressjs{
-    width: 60%;
-    animation: expressjs 2s;
-}
-.mongo{
-    width: 65%;
-    animation: mongo 2s;
-}
-
-
-@keyframes html{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 85%;
-    }
-}
-@keyframes css{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 75%;
-    }
-}
-@keyframes bootstrap{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 75%;
-    }
-}
-@keyframes javascript{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 70%;
-    }
-}
-@keyframes reactjs{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 65%;
-    }
-}
-@keyframes nodejs{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 60%;
-    }
-}
-@keyframes expressjs{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 60%;
-    }
-}
-@keyframes mongo{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 65%;
+@media only screen and (max-width: 575px){
+    .cart{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding:  30px;
+        background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+         text-align: center;
+         transition: .5s;
     }
 }

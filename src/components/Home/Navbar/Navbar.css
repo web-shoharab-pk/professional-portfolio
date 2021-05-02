@@ -13,7 +13,10 @@
   transition: .5s;
   background-color: #00C4B3;
 }
-
+.viewResume {
+  background-color: #0a173a;
+  color: #00C4B3 !important;
+}
 .navbar-option:hover {
   color: white !important;
   text-decoration: wavy;

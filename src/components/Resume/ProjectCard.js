@@ -46,9 +46,9 @@ const ProjectCard = () => {
                             <strong>Internet service provider</strong>
                         </MDBCardTitle>
                         <MDBBtn className="me-5" onClick={toggleShowa}>Features</MDBBtn>
-                        <MDBBtn onClick={toggleShowaa}>Technology Used</MDBBtn>
+                        <MDBBtn onClick={toggleShowaa}>Technology</MDBBtn>
                         <MDBCollapse show={showShowa}>
-                            <strong>Features</strong>
+                            <strong>Features:</strong>
                             <ul>
                                 <li>Customer can buy any services, </li>
                                 <li>Customer can payment with stripe method,</li>
@@ -61,7 +61,7 @@ const ProjectCard = () => {
                             </ul>
                         </MDBCollapse>
                         <MDBCollapse show={showShowaa}>
-                            <strong>Technology Used</strong>
+                            <strong>Technology Used:</strong>
                             <ul>
                                 <li>
                                     <strong>Front-end:</strong> Javascript (ES6), React, Bootstrap, Material UI, HTML, CSS, Contaxt API and many libraries
@@ -111,9 +111,9 @@ const ProjectCard = () => {
                             Dental Hospital
                          </MDBCardTitle>
                         <MDBBtn className="me-5" onClick={toggleShowb}>Features</MDBBtn>
-                        <MDBBtn onClick={toggleShowba}>Technology Used</MDBBtn>
+                        <MDBBtn onClick={toggleShowba}>Technology</MDBBtn>
                         <MDBCollapse show={showShowb}>
-                            <strong>Features</strong>
+                            <strong>Features:</strong>
                             <ul>
                                 <li>Patients can book an appointment,</li>
                                 <li>Patients can review on the doctor,</li>
@@ -124,7 +124,7 @@ const ProjectCard = () => {
                             </ul>
                         </MDBCollapse>
                         <MDBCollapse show={showShowba}>
-                            <strong>Technology Used</strong>
+                            <strong>Technology Used:</strong>
                             <ul>
                                 <li>
                                     <strong>Front-end:</strong> Javascript (ES6), React, Bootstrap, Material UI, HTML, CSS, Contaxt API and many libraries
@@ -172,9 +172,9 @@ const ProjectCard = () => {
                             <strong>Family Restaurant</strong>
                         </MDBCardTitle>
                         <MDBBtn className="me-5" onClick={toggleShowc}>Features</MDBBtn>
-                        <MDBBtn onClick={toggleShowca}>Technology Used</MDBBtn>
+                        <MDBBtn onClick={toggleShowca}>Technology</MDBBtn>
                         <MDBCollapse show={showShowc}>
-                            <strong>Features</strong>
+                            <strong>Features:</strong>
                             <ul>
                                 <li>User can order food, </li>
                                 <li>User can payment with stripe,</li>
@@ -186,7 +186,7 @@ const ProjectCard = () => {
                             </ul>
                         </MDBCollapse>
                         <MDBCollapse show={showShowca}>
-                            <strong>Technology Used</strong>
+                            <strong>Technology Used:</strong>
                             <ul>
                                 <li>
                                     <strong>Front-end:</strong> Javascript (ES6), React, Bootstrap, Material UI, HTML, CSS, Contaxt API and many libraries
