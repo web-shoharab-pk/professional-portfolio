@@ -1,59 +1,149 @@
 import React from 'react';
-import skillImg from '../images/303-removebg-removebg-preview.png';
 import './Skill.css';
 
 const Skill = () => {
     return (
         <main className="container mt-5">
-            <h1 style={{ fontSize: '60px', fontWeight: '800', padding: '20px 10px' }}>MY SKILLS</h1>
-             
+            <h1 style={{ fontSize: '60px', fontWeight: '750', padding: '20px 10px' }}>MY CODING SKILLS</h1>
 
-            <div className="row">
-                <div className="col-md-6">
-                    <div className="skills">
-                        <h1>My coding Skills</h1>
-                        <ul className="skillList">
-                            <li>
+            <section className="row py-5 text-center d-flex justify-content-around">
 
-                            </li>
-                            <h3>HTML5</h3><span className="skillBar"><span className="html"></span> </span>
-                            <li>
-
-                            </li>
-                            <h3>CSS</h3><span className="skillBar"><span className="css"></span> </span>
-                            <li>
-
-                            </li>
-                            <h3>Bootstrap</h3><span className="skillBar"><span className="bootstrap"></span> </span>
-                            <li>
-
-                            </li>
-                            <h3>Javascript</h3><span className="skillBar"><span className="javascript"></span> </span>
-                            <li>
-
-                            </li>
-                            <h3>ReactJS</h3><span className="skillBar"><span className="reactjs"></span> </span>
-                            <li>
-
-                            </li>
-                            <h3>NodeJS</h3><span className="skillBar"><span className="nodejs"></span> </span>
-                            <li>
-
-                            </li>
-                            <h3>ExpressJS</h3><span className="skillBar"><span className="expressjs"></span>100 </span>
-                            <li>
-
-                            </li>
-                            <h3>MongoDB</h3><span className="skillBar"><span className="mongo"></span> </span>
-
-                        </ul>
-
+                <div className="col-md-3 col-sm-6 py-3">
+                    <div className="cart">
+                        <div className="box">
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </div>
+                            <div className="number">
+                                <h2>65<span>%</span></h2>
+                            </div>
+                            <h2 className="text">Reactjs</h2>
+                        </div>
                     </div>
                 </div>
-                <div className="col-md-6 py-5 px-3">
-                    <img className="img-fluid skillImg" src={skillImg} alt="" />
+
+                <div className="col-md-3 col-sm-6 py-3">
+                    <div className="cart">
+                        <div className="box">
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </div>
+                            <div className="number">
+                                <h2>50<span>%</span></h2>
+                            </div>
+                            <h2 className="text">nodejs</h2>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div className="col-md-3 col-sm-6 py-3">
+                    <div className="cart">
+                        <div className="box">
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </div>
+                            <div className="number">
+                                <h2>60<span>%</span></h2>
+                            </div>
+                            <h2 className="text">expressjs</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-3  col-sm-6 py-3">
+                    <div className="cart">
+                        <div className="box">
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </div>
+                            <div className="number">
+                                <h2>60<span>%</span></h2>
+                            </div>
+                            <h2 className="text">mongodb </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-3 col-sm-6 py-3">
+                    <div className="cart">
+                        <div className="box">
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </div>
+                            <div className="number">
+                                <h2>70<span>%</span></h2>
+                            </div>
+                            <h2 className="text">Javascript </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-3 col-sm-6 py-3">
+                    <div className="cart">
+                        <div className="box">
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </div>
+                            <div className="number">
+                                <h2>75<span>%</span></h2>
+                            </div>
+                            <h2 className="text">Bootstrap</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="col-md-3  col-sm-6 py-3">
+                    <div className="cart">
+                        <div className="box">
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </div>
+                            <div className="number">
+                                <h2>80<span>%</span></h2>
+                            </div>
+                            <h2 className="text">CSS</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-3  col-sm-6 py-3">
+                    <div className="cart">
+                        <div className="box">
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                            </div>
+                            <div className="number">
+                                <h2>85<span>%</span></h2>
+                            </div>
+                            <h2 className="text">HTML</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 };

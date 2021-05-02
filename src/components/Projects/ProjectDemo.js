@@ -52,7 +52,7 @@ const ProjectDemo = () => {
                             alt='man'
                         />
                     </MDBView>
-                    <MDBCardBody cascade className=' '>
+                    <MDBCardBody>
                         <MDBCardTitle className='card-title'>
                             <strong>Food Monster</strong>
                         </MDBCardTitle>                     
@@ -78,7 +78,7 @@ const ProjectDemo = () => {
                             alt='man'
                         />
                     </MDBView>
-                    <MDBCardBody cascade className=' '>
+                    <MDBCardBody>
                         <MDBCardTitle className='card-title'>
                             <strong>Slider Creator</strong>
                         </MDBCardTitle>

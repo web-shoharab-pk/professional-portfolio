@@ -41,7 +41,7 @@ const ProjectCard = () => {
                         />
                     </MDBView>
 
-                    <MDBCardBody cascade className=' '>
+                    <MDBCardBody>
                         <MDBCardTitle className='card-title'>
                             <strong>Internet service provider</strong>
                         </MDBCardTitle>
