@@ -17,9 +17,8 @@ import bubbles from '../images/bubble.png';
 const Home = () => {
     return (
         <main>
-
-
             <section className="hero" style={{ margin: '0', padding: '0' }}>
+
                 <div id="navbar">
                     <Navbar></Navbar>
                 </div>
@@ -37,12 +36,9 @@ const Home = () => {
 
                     <div className="side-bar">
                         <div className="social-links">
-
                             <a href="https://www.facebook.com/web.shoharabpk/" target="_bland"><img src={fb} alt=""></img></a>
                             <a href="https://twitter.com/Md_Shoharab_Pk/" target="_bland"><img src={tw} alt=""></img></a>
                             <a href="https://www.linkedin.com/in/shoharabpk/" target="_bland"> <img src={ig} alt=""></img> </a>
-
-
                         </div>
                     </div>
                     <div className="bubbles">
@@ -57,8 +53,6 @@ const Home = () => {
                         <img src={bubbles} alt="" />
                     </div>
                 </div>
-
-
             </section>
 
             <section id="about">

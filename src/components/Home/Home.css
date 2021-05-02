@@ -35,8 +35,8 @@
     width: 65px;  
     background: linear-gradient(#00545d, #000729);
     position:  absolute;
-    top: 55px;
-    right: 20px;
+    top: 60px;
+    right: 0;
 }
 .social-links img{
     padding: 5px;

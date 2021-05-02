@@ -28,9 +28,6 @@ const Resume = () => {
                 <ResumeContent></ResumeContent>
             </section>
          
-
-
-
         </main>
     );
 };
