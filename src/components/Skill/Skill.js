@@ -1,7 +1,15 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
 import './Skill.css';
+import Aos from "aos";
+import "aos/dist/aos.css"; 
+
 
 const Skill = () => {
+
+    useEffect(() => {
+        Aos.init({duration: 3000}) 
+    },[])
+
     return (
         <main className="container mt-5">
             <h1 style={{ fontSize: '50px', fontWeight: '800', padding: '20px 10px' }}>MY CODING SKILLS</h1>
@@ -9,7 +17,7 @@ const Skill = () => {
             <section className="row py-5 ">
    
                     <div className="col-md-3 py-3   col-sm-6 ">
-                        <div className="cart ">
+                        <div data-aos="flip-right" className="cart ">
                             <div className="box">
                                 <div className="percent">
                                     <svg>
@@ -26,7 +34,7 @@ const Skill = () => {
                     </div>
 
                     <div className="col-md-3 py-3  col-sm-6">
-                        <div className="cart ">
+                        <div data-aos="flip-right" className="cart ">
                             <div className="box">
                                 <div className="percent">
                                     <svg>
@@ -42,7 +50,7 @@ const Skill = () => {
                         </div>
                     </div>
                     <div className="col-md-3 py-3 col-sm-6">
-                        <div className="cart ">
+                        <div data-aos="flip-right" className="cart ">
                             <div className="box">
                                 <div className="percent">
                                     <svg>
@@ -59,7 +67,7 @@ const Skill = () => {
                     </div>
 
                     <div className="col-md-3 py-3  col-sm-6">
-                        <div className="cart ">
+                        <div data-aos="flip-right" className="cart ">
                             <div className="box">
                                 <div className="percent">
                                     <svg>
@@ -76,7 +84,7 @@ const Skill = () => {
                     </div>
 
                     <div className="col-md-3 py-3 col-sm-6">
-                        <div className="cart">
+                        <div data-aos="flip-right" className="cart">
                             <div className="box">
                                 <div className="percent">
                                     <svg>
@@ -93,7 +101,7 @@ const Skill = () => {
                     </div>
 
                     <div className="col-md-3 py-3 col-sm-6">
-                        <div className="cart">
+                        <div data-aos="flip-right" className="cart">
                             <div className="box">
                                 <div className="percent">
                                     <svg>
@@ -110,7 +118,7 @@ const Skill = () => {
                     </div>
 
                     <div className="col-md-3 py-3  col-sm-6">
-                        <div className="cart">
+                        <div data-aos="flip-right" className="cart">
                             <div className="box">
                                 <div className="percent">
                                     <svg>
@@ -127,7 +135,7 @@ const Skill = () => {
                     </div>
 
                     <div className="col-md-3 py-3  col-sm-6 ">
-                        <div className="cart  ">
+                        <div data-aos="flip-right" className="cart  ">
                             <div className="box">
                                 <div className="percent">
                                     <svg>

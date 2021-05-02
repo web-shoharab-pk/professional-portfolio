@@ -5,10 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import { MDBCollapse, MDBBtn } from 'mdb-react-ui-kit';
 import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBRow, MDBCol, MDBView } from 'mdbreact';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import imagea from '../images/dental-hospital.png';
 import imageb from '../images/internetservice.png';
 import imagec from '../images/family-restauren.png';
+import { useEffect } from 'react';
 
 const ProjectCard = () => {
     const [showShowa, setShowShowa] = useState(false);
@@ -27,9 +30,13 @@ const ProjectCard = () => {
     const toggleShowba = () => setShowShowba(!showShowba);
     const toggleShowca = () => setShowShowca(!showShowca);
 
+    useEffect(() => {
+        Aos.init({ duration: 3000 })
+    }, [])
+
     return (
         <MDBRow>
-            <MDBCol md='4 mt-3'>
+            <MDBCol data-aos="fade-right" md='4 mt-3'>
                 <MDBCard wide cascade>
                     <MDBView cascade className="hover-zoom">
                         <MDBCardImage
@@ -45,8 +52,11 @@ const ProjectCard = () => {
                         <MDBCardTitle className='card-title'>
                             <strong>Internet service provider</strong>
                         </MDBCardTitle>
-                        <MDBBtn className="me-5" onClick={toggleShowa}>Features</MDBBtn>
-                        <MDBBtn onClick={toggleShowaa}>Technology</MDBBtn>
+                        <div className="d-flex justify-content-between align-items-center">
+                            <MDBBtn onClick={toggleShowa}>Features</MDBBtn>
+                            <MDBBtn onClick={toggleShowaa}>Technology</MDBBtn>
+                        </div>
+
                         <MDBCollapse show={showShowa}>
                             <strong>Features:</strong>
                             <ul>
@@ -79,20 +89,17 @@ const ProjectCard = () => {
                         </MDBCollapse>
                         <div className="d-flex justify-content-between mt-3">
                             <a href="https://internet-service-fafbf.web.app/" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
+                                <MDBBtn><FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
                             </a>
-                            <a href="https://github.com/web-shoharab-pk/internet-service-provider" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /> Client</MDBBtn>
-                            </a>
-                            <a href="https://github.com/web-shoharab-pk/internet-service-provider-server" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /> Server</MDBBtn>
+                            <a href="https://github.com/web-shoharab-pk/internet-service" target="_blank" rel="noreferrer">
+                                <MDBBtn><FontAwesomeIcon icon={faGithub} /> Github</MDBBtn>
                             </a>
                         </div>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
 
-            <MDBCol md='4 mt-3'>
+            <MDBCol data-aos="fade-down" md='4 mt-3'>
                 <MDBCard narrow>
                     <MDBView cascade className="hover-zoom">
                         <MDBCardImage
@@ -110,8 +117,11 @@ const ProjectCard = () => {
                         <MDBCardTitle className='font-weight-bold'>
                             Dental Hospital
                          </MDBCardTitle>
-                        <MDBBtn className="me-5" onClick={toggleShowb}>Features</MDBBtn>
+                         <div className="d-flex justify-content-between align-items-center">
+                         <MDBBtn onClick={toggleShowb}>Features</MDBBtn>
                         <MDBBtn onClick={toggleShowba}>Technology</MDBBtn>
+                        </div>
+                        
                         <MDBCollapse show={showShowb}>
                             <strong>Features:</strong>
                             <ul>
@@ -142,13 +152,10 @@ const ProjectCard = () => {
                         </MDBCollapse>
                         <div className="d-flex justify-content-between mt-3">
                             <a href="https://dental-hospital-a9008.web.app/" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
+                                <MDBBtn><FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
                             </a>
-                            <a href="https://github.com/web-shoharab-pk/doctors-portal-client" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /> Client</MDBBtn>
-                            </a>
-                            <a href="https://github.com/web-shoharab-pk/dental-hospital-server" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /> Server</MDBBtn>
+                            <a href="https://github.com/web-shoharab-pk/doctors-portal" target="_blank" rel="noreferrer">
+                                <MDBBtn><FontAwesomeIcon icon={faGithub} /> Github</MDBBtn>
                             </a>
                         </div>
                     </MDBCardBody>
@@ -156,7 +163,7 @@ const ProjectCard = () => {
             </MDBCol>
 
 
-            <MDBCol md='4 mt-3'>
+            <MDBCol data-aos="fade-left" md='4 mt-3'>
                 <MDBCard>
                     <div className="hover-zoom">
                         <MDBCardImage
@@ -171,8 +178,11 @@ const ProjectCard = () => {
                         <MDBCardTitle className='card-title'>
                             <strong>Family Restaurant</strong>
                         </MDBCardTitle>
-                        <MDBBtn className="me-5" onClick={toggleShowc}>Features</MDBBtn>
+                        <div className="d-flex justify-content-between align-items-center">
+                        <MDBBtn onClick={toggleShowc}>Features</MDBBtn>
                         <MDBBtn onClick={toggleShowca}>Technology</MDBBtn>
+                        </div>
+                      
                         <MDBCollapse show={showShowc}>
                             <strong>Features:</strong>
                             <ul>
@@ -206,18 +216,15 @@ const ProjectCard = () => {
                             <a href="https://family-restaurent.web.app/" target="_blank" rel="noreferrer">
                                 <MDBBtn> <FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
                             </a>
-                            <a href="https://github.com/web-shoharab-pk/family-restaurent/tree/master/client" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /> Client</MDBBtn>
-                            </a>
-                            <a href="https://github.com/web-shoharab-pk/family-restaurent/tree/master/server" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /> Server</MDBBtn>
-                            </a>
+                            <a href="https://github.com/web-shoharab-pk/family-restaurent/" target="_blank" rel="noreferrer">
+                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /> Github</MDBBtn>
+                            </a> 
                         </div>
 
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-          
+
         </MDBRow>
     )
 }

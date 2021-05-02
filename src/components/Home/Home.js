@@ -13,8 +13,16 @@ import fb from '../images/fb.png';
 import tw from '../images/tw.png';
 import ig from '../images/ig.png';
 import bubbles from '../images/bubble.png';
+import Aos from "aos";
+import "aos/dist/aos.css"; 
+import { useEffect } from 'react';
 
 const Home = () => {
+
+    useEffect(() => {
+        Aos.init({duration: 2000}) 
+    },[])
+
     return (
         <main>
             <section className="hero" style={{ margin: '0', padding: '0' }}>
@@ -25,8 +33,9 @@ const Home = () => {
 
                 <div className="homePageContent">
                     <div className="text-center text-light" >
-                        <img className="img-fluid hompageImg" src={mainImg} alt="" />
-                        <div className="webText">
+                        <img data-aos="fade-down" className="img-fluid hompageImg animated bounce infinite" id="animated-img1" src={mainImg} alt="" />
+                    
+                        <div data-aos="fade-up" className="webText">
                             Hi There!  I'M SHOHARAB <br />
                             Web Developer                          
                         </div>
