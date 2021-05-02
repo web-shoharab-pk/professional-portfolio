@@ -12,7 +12,7 @@ import Navbar from './Navbar/Navbar';
 import fb from '../images/fb.png';
 import tw from '../images/tw.png';
 import ig from '../images/ig.png';
-import bubbles from '../images/bubble.png'
+import bubbles from '../images/bubble.png';
 
 const Home = () => {
     return (
@@ -72,6 +72,7 @@ const Home = () => {
             <section id="projects">
                 <Projects></Projects>
             </section>
+
             <section id="blogs">
                 <Blog></Blog>
             </section>
