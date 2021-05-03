@@ -24,7 +24,7 @@ const Home = () => {
 
     return (
         <main>
-            <section className="hero" style={{ margin: '0', padding: '0' }}>
+            <section className="hero " style={{ padding: '0',  }}>
 
                 <div className="d-flex justify-content-between" >
                     <Navbar></Navbar>

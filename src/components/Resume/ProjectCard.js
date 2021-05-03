@@ -50,11 +50,11 @@ const ProjectCard = () => {
 
                     <MDBCardBody>
                         <MDBCardTitle className='card-title'>
-                            <strong>Internet service provider</strong>
+                            <strong>Internet Service</strong>
                         </MDBCardTitle>
-                        <div className="d-flex justify-content-between align-items-center">
-                            <MDBBtn onClick={toggleShowa}>Features</MDBBtn>
-                            <MDBBtn onClick={toggleShowaa}>Technology</MDBBtn>
+                        <div className="d-flex FeaturesBtn justify-content-between align-items-center">
+                            <MDBBtn className="mt-3" onClick={toggleShowa}>Features</MDBBtn>
+                            <MDBBtn className="mt-3" onClick={toggleShowaa}>Technology</MDBBtn>
                         </div>
 
                         <MDBCollapse show={showShowa}>
@@ -88,11 +88,11 @@ const ProjectCard = () => {
                             </ul>
                         </MDBCollapse>
                         <div className="d-flex justify-content-between mt-3">
-                            <a href="https://internet-service-fafbf.web.app/" target="_blank" rel="noreferrer">
-                                <MDBBtn><FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
+                            <a href="https://internet-service-f1fbf.web.app/" target="_blank" rel="noreferrer">
+                                <MDBBtn><FontAwesomeIcon icon={faEye} /></MDBBtn>
                             </a>
                             <a href="https://github.com/web-shoharab-pk/internet-service" target="_blank" rel="noreferrer">
-                                <MDBBtn><FontAwesomeIcon icon={faGithub} /> Github</MDBBtn>
+                                <MDBBtn><FontAwesomeIcon icon={faGithub} /></MDBBtn>
                             </a>
                         </div>
                     </MDBCardBody>
@@ -117,9 +117,9 @@ const ProjectCard = () => {
                         <MDBCardTitle className='font-weight-bold'>
                             Dental Hospital
                          </MDBCardTitle>
-                         <div className="d-flex justify-content-between align-items-center">
-                         <MDBBtn onClick={toggleShowb}>Features</MDBBtn>
-                        <MDBBtn onClick={toggleShowba}>Technology</MDBBtn>
+                         <div className="d-flex FeaturesBtn justify-content-between align-items-center">
+                         <MDBBtn className="mt-3" onClick={toggleShowb}>Features</MDBBtn>
+                        <MDBBtn className="mt-3" onClick={toggleShowba}>Technology</MDBBtn>
                         </div>
                         
                         <MDBCollapse show={showShowb}>
@@ -151,11 +151,11 @@ const ProjectCard = () => {
                             </ul>
                         </MDBCollapse>
                         <div className="d-flex justify-content-between mt-3">
-                            <a href="https://dental-hospital-a9008.web.app/" target="_blank" rel="noreferrer">
-                                <MDBBtn><FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
+                            <a href="https://dental-hospital-19008.web.app/" target="_blank" rel="noreferrer">
+                                <MDBBtn><FontAwesomeIcon icon={faEye} /></MDBBtn>
                             </a>
                             <a href="https://github.com/web-shoharab-pk/doctors-portal" target="_blank" rel="noreferrer">
-                                <MDBBtn><FontAwesomeIcon icon={faGithub} /> Github</MDBBtn>
+                                <MDBBtn><FontAwesomeIcon icon={faGithub} /></MDBBtn>
                             </a>
                         </div>
                     </MDBCardBody>
@@ -178,9 +178,9 @@ const ProjectCard = () => {
                         <MDBCardTitle className='card-title'>
                             <strong>Family Restaurant</strong>
                         </MDBCardTitle>
-                        <div className="d-flex justify-content-between align-items-center">
-                        <MDBBtn onClick={toggleShowc}>Features</MDBBtn>
-                        <MDBBtn onClick={toggleShowca}>Technology</MDBBtn>
+                        <div className="d-flex FeaturesBtn justify-content-between align-items-center">
+                        <MDBBtn className="mt-3" onClick={toggleShowc}>Features</MDBBtn>
+                        <MDBBtn className="mt-3" onClick={toggleShowca}>Technology</MDBBtn>
                         </div>
                       
                         <MDBCollapse show={showShowc}>
@@ -214,10 +214,10 @@ const ProjectCard = () => {
                         </MDBCollapse>
                         <div className="d-flex justify-content-between mt-3">
                             <a href="https://family-restaurent.web.app/" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faEye} /></MDBBtn>
                             </a>
                             <a href="https://github.com/web-shoharab-pk/family-restaurent/" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /> Github</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /></MDBBtn>
                             </a> 
                         </div>
 

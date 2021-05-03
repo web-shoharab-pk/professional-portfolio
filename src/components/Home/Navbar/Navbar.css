@@ -1,27 +1,31 @@
+body{ 
+  width: 100%;
+}
  .navbar{
+   width: 100%;
    position: fixed; 
+   right: 0;
    z-index: 10000;
+   background: black;
  }
+ 
  .navbar-option {
   font-size: 20px;
   font-weight: 700;
-  color: #0a173a !important;
+  color: #00C4B3 !important;
   background: transparent;
-  border: 1px solid #ffffff;
-  border-radius: 30px;
-  outline: none; 
-  transition: .5s;
-  background-color: #00C4B3;
+  border-bottom: 5px solid #000000;
+  
+  transition: .5s; 
 }
 .viewResume {
   background-color: #0a173a;
-  color: #00C4B3 !important;
+  color: #00C4B3 !important; 
 }
 .navbar-option:hover {
   color: white !important;
-  text-decoration: wavy;
-  border: 1px solid #0a173a;
-
+  text-decoration: wavy; 
+  border-bottom: 5px solid #ffffff;
 }
 .navbar-home{
     font-size: 20px;

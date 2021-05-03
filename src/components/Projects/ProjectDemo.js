@@ -37,10 +37,10 @@ const ProjectDemo = () => {
                         </MDBCardTitle>
                         <div className="d-flex justify-content-between mt-3">
                             <a href="https://sport-team-webshoharabpk.netlify.app/" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faEye} /></MDBBtn>
                             </a>
                             <a href="https://github.com/web-shoharab-pk/Soccer-leauge-app" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} />Github</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /></MDBBtn>
                             </a>
                         </div>
                     </MDBCardBody>
@@ -64,10 +64,10 @@ const ProjectDemo = () => {
                         </MDBCardTitle>
                         <div className="d-flex justify-content-between mt-3">
                             <a href="https://web-shoharab-pk.github.io/assignment-5/" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faEye} /></MDBBtn>
                             </a>
                             <a href="https://github.com/web-shoharab-pk/assignment-5" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} />Github</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /></MDBBtn>
                             </a>
                         </div>
                     </MDBCardBody>
@@ -92,10 +92,10 @@ const ProjectDemo = () => {
 
                         <div className="d-flex justify-content-between mt-3">
                             <a href="https://web-shoharab-pk.github.io/assignment-6/" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faEye} /></MDBBtn>
                             </a>
                             <a href="https://github.com/web-shoharab-pk/assignment-6" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} />Github</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /></MDBBtn>
                             </a>
                         </div>
                     </MDBCardBody>
@@ -120,10 +120,10 @@ const ProjectDemo = () => {
 
                         <div className="d-flex justify-content-between mt-3">
                             <a href="https://web-shoharab-pk.github.io/online-ticket-counter/" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faEye} /> Preview</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faEye} /></MDBBtn>
                             </a>
                             <a href="https://github.com/web-shoharab-pk/online-ticket-counter" target="_blank" rel="noreferrer">
-                                <MDBBtn> <FontAwesomeIcon icon={faGithub} />Github</MDBBtn>
+                                <MDBBtn> <FontAwesomeIcon icon={faGithub} /></MDBBtn>
                             </a>
                         </div>
                     </MDBCardBody>

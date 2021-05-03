@@ -23,3 +23,12 @@ overflow-x: hidden;
     padding: 20px 30px;
     border-radius: 20px;
 }
+
+
+
+
+@media only screen and (max-width: 1024px) {
+   .FeaturesBtn{
+       display: block !important;
+   }
+  }
