@@ -14,6 +14,7 @@ import tw from '../images/tw.png';
 import ig from '../images/ig.png';
 import bubbles from '../images/bubble.png';
 import Aos from "aos"; 
+// import "aos/dist/aos.css";
 import { useEffect } from 'react';
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
         <main>
             <section className="hero " style={{ padding: '0',  }}>
 
-                <div className="d-flex justify-content-between" >
+                <div  className="d-flex justify-content-between" >
                     <Navbar></Navbar>
                 </div>
 

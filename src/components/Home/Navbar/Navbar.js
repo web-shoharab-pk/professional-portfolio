@@ -1,12 +1,19 @@
 import React from 'react';  
 import './Navbar.css';
 import menu from '../../images/menu.png'
+import Aos from "aos";  
+import { useEffect } from 'react';
 
 const Navbar = () => {
+
+    useEffect(() => {
+        Aos.init({duration: 2000}) 
+    },[])
+
     return (
         <div> 
             <nav className="navbar mt-0 navbar-expand-lg">
-                <div className="container-fluid">
+                <div className="container-fluid w-100">
                   
                     <button className="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                          <img style={{width: '40px'}} src={menu} alt=""/> 
